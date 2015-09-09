@@ -1,5 +1,5 @@
 import test from 'tape';
-import {WindowMock} from './window-mock';
+import WindowMock from './window-mock';
 import {name} from '../package.json';
 
 let windowMock = new WindowMock();
