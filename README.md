@@ -1,3 +1,9 @@
+[![NPM](https://nodei.co/npm/window-mock.png?mini=true)](https://nodei.co/npm/window-mock/)
+
+[![npm version](https://badge.fury.io/js/window-mock.svg)](http://badge.fury.io/js/window-mock)
+
+[![Build Status](https://travis-ci.org/sbstnmsch/window-mock.svg?branch=master)](https://travis-ci.org/sbstnmsch/window-mock)
+
 # window-mock
 A light-weight window-mock for node/ io.js testing
 
