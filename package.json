@@ -1,6 +1,6 @@
 {
   "name": "window-mock",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A light-weight window mock for Node/io.js testing",
   "main": "window-mock.js",
   "repository": {
