@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+
+  "env": {
+    "browser": true
+  },
+
+  "globals": {
+    "require": 1,
+    "module": 1,
+    "window": 1,
+    "console": 1,
+    "document": 1,
+    "angular": 1,
+    "Analytics": 1
+  },
+
+  "rules": {
+    "quotes": [2, "single"],
+    "eqeqeq": 0,
+    "strict": 0,
+    "no-underscore-dangle": 0,
+    "no-console": 0
+  }
+}
