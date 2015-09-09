@@ -1,8 +1,7 @@
 {
   "default": [
-    "checkDependencies",
     "eslint",
-    "shell:webpack",
+    "shell:build",
     "shell:test"
   ]
 }

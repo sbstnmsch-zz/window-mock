@@ -1,5 +1,5 @@
 module.exports = {
-  webpack: {
+  build: {
     command: 'npm run-script build'
   },
   test: {
