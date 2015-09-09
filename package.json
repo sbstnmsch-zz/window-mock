@@ -2,10 +2,10 @@
   "name": "window-mock",
   "version": "0.0.2",
   "description": "A light-weight window mock for Node/io.js testing",
-  "main": "window-mock.min.js",
+  "main": "window-mock.js",
   "repository": {
     "type": "git",
-    "url": "ssh://pp.git"
+    "url": "ssh://git@github.com:sbstnmsch/window-mock.git"
   },
   "type": "mock",
   "scripts": {
@@ -14,7 +14,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "babel": "^5.6.14",
     "babel-core": "^5.6.18",
     "babel-eslint": "^3.1.23",
     "babel-loader": "^5.3.1",
