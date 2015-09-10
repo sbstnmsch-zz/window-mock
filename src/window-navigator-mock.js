@@ -1,4 +1,4 @@
-export class WindowNavigatorMock {
+export default class WindowNavigatorMock {
 
   constructor() {
     this._test = 'Navigator';

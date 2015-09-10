@@ -1,10 +1,10 @@
 // Fake browser for testing
 
-import {WindowApplicationCacheMock} from './window-application-cache-mock';
-import {WindowNavigatorMock} from './window-navigator-mock';
-import {WindowLocationMock} from './window-location-mock';
-import {WindowLocalStorageMock} from './window-local-storage-mock';
-import {WindowDocumentMock} from './window-document-mock';
+import WindowApplicationCacheMock from './window-application-cache-mock';
+import WindowNavigatorMock from './window-navigator-mock';
+import WindowLocationMock from './window-location-mock';
+import WindowLocalStorageMock from './window-local-storage-mock';
+import WindowDocumentMock from './window-document-mock';
 
 export default class WindowMock {
 

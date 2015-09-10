@@ -1,6 +1,6 @@
-import {WindowNodeMock} from './window-node-mock';
+import WindowNodeMock from './window-node-mock';
 
-export class WindowFragmentMock extends WindowNodeMock {
+export default class WindowFragmentMock extends WindowNodeMock {
 
   constructor() {
     super();
