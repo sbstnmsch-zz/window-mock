@@ -5,7 +5,9 @@ import {name} from '../package.json';
 let windowMock = new WindowMock();
 
 test(`${name}: Window`, (t) => {
-  let tmp, tmpFunc;
+  let
+    tmp,
+    tmpFunc = () => { tmp = true; };
 
   t.equal(windowMock._test, 'Window', 'should be a Window object');
 
@@ -18,8 +20,6 @@ test(`${name}: Window`, (t) => {
   t.equal(typeof windowMock.localStorage, 'object', 'localStorage should be an object');
 
   t.equal(typeof windowMock.document, 'object', 'document should be an object');
-
-  tmpFunc = () => { tmp = true; };
 
   t.equal(typeof windowMock.setTimeout, 'function', 'setTimeout should be a function');
   tmp = false;
