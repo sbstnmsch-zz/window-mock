@@ -14,7 +14,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "babel-core": "6.1.4",
     "babel-cli": "6.1.4",
     "babel-core": "6.1.4",
     "babel-eslint": "4.1.4",
