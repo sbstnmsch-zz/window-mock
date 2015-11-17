@@ -1,4 +1,4 @@
-export default class WindowLocalStorageMock {
+class WindowLocalStorageMock {
 
   constructor() {
     this._test = 'LocalStorage';
@@ -18,3 +18,5 @@ export default class WindowLocalStorageMock {
   }
 
 }
+
+export default WindowLocalStorageMock;

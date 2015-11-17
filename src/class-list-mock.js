@@ -1,4 +1,4 @@
-export default class ClassListMock {
+class ClassListMock {
 
   constructor() {
     this._test = 'ClassList';
@@ -27,3 +27,5 @@ export default class ClassListMock {
   }
 
 }
+
+export default ClassListMock;

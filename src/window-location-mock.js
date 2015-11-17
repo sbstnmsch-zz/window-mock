@@ -1,4 +1,4 @@
-export default class WindowLocationMock {
+class WindowLocationMock {
 
   constructor() {
     this._test = 'Location';
@@ -6,3 +6,5 @@ export default class WindowLocationMock {
   }
 
 }
+
+export default WindowLocationMock;

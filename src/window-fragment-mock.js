@@ -9,5 +9,4 @@ class WindowFragmentMock extends WindowNodeMock {
 
 }
 
-export default WindowFragmentMock; // @see https://github.com/babel/babel/issues/2694
-                                   // Moved to EOF cause of Babel issue
+export default WindowFragmentMock;

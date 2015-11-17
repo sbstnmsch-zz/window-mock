@@ -1,4 +1,4 @@
-export default class WindowApplicationCacheMock {
+class WindowApplicationCacheMock {
 
   constructor() {
     this._test = 'ApplicationCache';
@@ -11,3 +11,5 @@ export default class WindowApplicationCacheMock {
   }
 
 }
+
+export default WindowApplicationCacheMock;

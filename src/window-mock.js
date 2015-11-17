@@ -6,7 +6,7 @@ import WindowLocationMock from './window-location-mock';
 import WindowLocalStorageMock from './window-local-storage-mock';
 import WindowDocumentMock from './window-document-mock';
 
-export default class WindowMock {
+class WindowMock {
 
   constructor() {
     this._test = 'Window';
@@ -30,3 +30,5 @@ export default class WindowMock {
   }
 
 }
+
+export default WindowMock;

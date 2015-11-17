@@ -1,6 +1,6 @@
 import ClassListMock from './class-list-mock';
 
-export default class WindowNodeMock {
+class WindowNodeMock {
 
   constructor() {
     this._test = 'Node';
@@ -21,3 +21,5 @@ export default class WindowNodeMock {
   }
 
 }
+
+export default WindowNodeMock;

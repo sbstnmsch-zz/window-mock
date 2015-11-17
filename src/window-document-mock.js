@@ -1,7 +1,7 @@
 import WindowNodeMock from './window-node-mock';
 import WindowFragmentMock from './window-fragment-mock';
 
-export default class WindowDocumentMock {
+class WindowDocumentMock {
 
   constructor() {
     this._test = 'Document';
@@ -25,3 +25,5 @@ export default class WindowDocumentMock {
   }
 
 }
+
+export default WindowDocumentMock;
