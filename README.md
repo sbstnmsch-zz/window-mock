@@ -61,4 +61,4 @@ test(`Some window interaction unit test`, function(t) {
 This module was built for unit-test mocking the browser's window-object in
 my other projects. It's far from complete and will grow once needed.
 
-Feel free to fork and pull-request!
+Feel free to fork and pull-request for extending the API!
