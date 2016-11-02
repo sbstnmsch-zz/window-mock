@@ -4,6 +4,7 @@ class WindowNodeMock {
 
   constructor() {
     this._test = 'Node';
+    this._attributes = {};
     this.children = [];
     this.classList = new ClassListMock();
   }
@@ -19,7 +20,14 @@ class WindowNodeMock {
   removeChild() {
     this.children.shift();
   }
-
+  
+  setAttribute(k, v) {
+    this._attributes[k] = v;
+  }
+  
+  getAttribute(k) {
+    return this._attributes[k];
+  }
 }
 
 export default WindowNodeMock;

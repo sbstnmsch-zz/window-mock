@@ -18,12 +18,23 @@ test(`${name}: window.document{Node}`, (t) => {
   mock.removeChild();
   t.equal(mock.children.length, 0, 'removeChild should remove child');
 
+  mock.setAttribute('key', 'value');
+  t.equal(mock._attributes['key'], 'value', 'setAttribute should store key-value pairs');
+  t.equal(mock.getAttribute('key'), 'value', 'getAttribute should return value for a key');
+
   t.end();
 });
 
 test(`${name}: window.document{Node}.classList`, (t) => {
 
   t.equal(mock.classList._test, 'ClassList', 'should be a ClassList object');
+
+  t.end();
+});
+
+test(`${name}: window.document{Node}.attributes`, (t) => {
+
+  t.equal(typeof mock._attributes, 'object', 'should be an object');
 
   t.end();
 });
