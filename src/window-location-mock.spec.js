@@ -17,3 +17,10 @@ test(`${name}: window.location.hash`, (t) => {
 
   t.end();
 });
+
+test(`${name}: window.location.pathname`, (t) => {
+
+  t.equal(typeof mock.pathname, 'string', 'pathname should be a String');
+
+  t.end();
+});
