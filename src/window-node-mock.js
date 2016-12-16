@@ -5,6 +5,7 @@ class WindowNodeMock {
   constructor() {
     this._test = 'Node';
     this._attributes = {};
+    this._eventListeners = {};
     this.children = [];
     this.classList = new ClassListMock();
   }
@@ -27,6 +28,10 @@ class WindowNodeMock {
   
   getAttribute(k) {
     return this._attributes[k];
+  }
+  
+  addEventListener(e, f) {
+    this._eventListeners[e] = f;
   }
 }
 

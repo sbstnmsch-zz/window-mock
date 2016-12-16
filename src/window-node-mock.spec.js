@@ -22,6 +22,10 @@ test(`${name}: window.document{Node}`, (t) => {
   t.equal(mock._attributes['key'], 'value', 'setAttribute should store key-value pairs');
   t.equal(mock.getAttribute('key'), 'value', 'getAttribute should return value for a key');
 
+  t.equal(typeof mock.addEventListener, 'function', 'addEventListener should be a function');
+  mock.addEventListener('click', () => { });
+  t.equal(typeof mock._eventListeners['click'], 'function', 'addEventListener should append listeners');
+  
   t.end();
 });
 
