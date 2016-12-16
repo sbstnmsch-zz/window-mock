@@ -5,6 +5,7 @@ class WindowDocumentMock {
 
   constructor() {
     this._test = 'Document';
+    this.referrer = '';
     this.body = new WindowNodeMock();
   }
 

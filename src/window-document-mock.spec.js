@@ -19,6 +19,13 @@ test(`${name}: window.document`, (t) => {
   t.end();
 });
 
+test(`${name}: window.document.referrer`, (t) => {
+
+  t.equal(typeof mock.referrer, 'string', 'referrer should be a String');
+
+  t.end();
+});
+
 test(`${name}: window.document.body`, (t) => {
 
   t.equal(mock.body._test, 'Node', 'body should be a Node');

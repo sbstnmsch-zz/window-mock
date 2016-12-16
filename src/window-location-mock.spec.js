@@ -24,3 +24,10 @@ test(`${name}: window.location.pathname`, (t) => {
 
   t.end();
 });
+
+test(`${name}: window.location.origin`, (t) => {
+
+  t.equal(typeof mock.origin, 'string', 'origin should be a String');
+
+  t.end();
+});

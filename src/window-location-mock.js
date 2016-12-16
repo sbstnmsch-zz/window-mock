@@ -4,6 +4,7 @@ class WindowLocationMock {
     this._test = 'Location';
     this.hash = '';
     this.pathname = '';
+    this.origin = '';
   }
 
 }
