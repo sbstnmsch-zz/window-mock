@@ -1,6 +1,8 @@
 [![npm version](https://badge.fury.io/js/window-mock.svg)](http://badge.fury.io/js/window-mock) [![Build Status](https://travis-ci.org/sbstnmsch/window-mock.svg?branch=master)](https://travis-ci.org/sbstnmsch/window-mock)
 
 # window-mock
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/sbstnmsch/window-mock.svg)](https://greenkeeper.io/)
 A light-weight window-mock for node/ io.js unit-testing written in ES6
 
 
