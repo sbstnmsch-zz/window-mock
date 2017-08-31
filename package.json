@@ -23,7 +23,7 @@
     "faucet": "0.0.1",
     "grunt": "1.0.1",
     "grunt-cli": "1.2.0",
-    "grunt-eslint": "19.0.0",
+    "grunt-eslint": "20.1.0",
     "grunt-shell": "2.1.0",
     "load-grunt-config": "0.19.2",
     "node-libs-browser": "2.0.0",
