@@ -4,6 +4,7 @@ import WindowApplicationCacheMock from './window-application-cache-mock';
 import WindowNavigatorMock from './window-navigator-mock';
 import WindowLocationMock from './window-location-mock';
 import WindowLocalStorageMock from './window-local-storage-mock';
+import WindowSessionStorageMock from './window-session-storage-mock';
 import WindowDocumentMock from './window-document-mock';
 
 class WindowMock {
@@ -14,6 +15,7 @@ class WindowMock {
     this.navigator = new WindowNavigatorMock();
     this.location = new WindowLocationMock();
     this.localStorage = new WindowLocalStorageMock();
+    this.sessionStorage = new WindowSessionStorageMock();
     this.document = new WindowDocumentMock();
   }
 
