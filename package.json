@@ -21,7 +21,7 @@
     "babel-runtime": "6.26.0",
     "babel-tape-runner": "2.0.1",
     "faucet": "0.0.1",
-    "grunt": "1.0.2",
+    "grunt": "1.0.3",
     "grunt-cli": "1.2.0",
     "grunt-eslint": "20.1.0",
     "grunt-shell": "2.1.0",
