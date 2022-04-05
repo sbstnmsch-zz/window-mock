@@ -17,6 +17,10 @@ class WindowLocalStorageMock {
     this._[k] = null;
   }
 
+  clear() {
+    this._ = {};
+  }
+
 }
 
 export default WindowLocalStorageMock;

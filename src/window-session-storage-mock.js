@@ -17,6 +17,10 @@ class WindowSessionStorageMock {
     this._[k] = null;
   }
 
+  clear() {
+    this._ = {};
+  }
+
 }
 
 export default WindowSessionStorageMock;
