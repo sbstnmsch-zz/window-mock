@@ -20,5 +20,11 @@ test(`${name}: window.sessionStorage`, (t) => {
   mock.removeItem('key');
   t.equal(mock.getItem('key'), null, 'removeItem should delete value');
 
+  t.equal(typeof mock.clear, 'function', 'clear should be a function');
+  mock._.foo = 'foo';
+  mock._.bar = 'bar';
+  mock.clear();
+  t.equal(mock.getItem('key'), undefined, 'clear should delete all values');
+
   t.end();
 });
